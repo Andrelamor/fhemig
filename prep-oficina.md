@@ -23,14 +23,22 @@
 
 - apartar schema do datapackage (10 min)
 
-- frictionless describe para geração do schema yaml
+- frictionless describe para geração do schema yaml (segundo encontro?)
 
-- inclusão do dialect.csv (5 min)
+- inclusão do dialect.csv (5 min) APÓS VALIDAÇÃO DETECTAR ERRO
+
+- inclusão do OWNER_ORG APÓS PUBLICAÇÃO VIA DPCKAN DETECTAR ERRO
 
 
 ## validação inicial com frictionless
 
-- inclusão dos decimalChar e groupChar e mudança de integer para number (5 min)
+- inclusão dos decimalChar e groupChar e mudança de integer para number (5 min) APÓS VALIDAÇÃO DETECTAR ERRO
+
+* REQUISITOS: 
+	number --> integer 
+	decimalChar, 
+	groupChar, 
+	dialect.json, 
 
 
 ## inclusão no repo git
@@ -41,3 +49,22 @@
 
 
 ## publicação no homologa CGE com dpckan
+
+* REQUISITOS: 
+	python, etc 
+	ambiente (venv) + 
+	inclusão da propriedade owner_org
+
+* obs: conferir ambiente de homologação antes de rodar o comando de publicação
+
+`echo $CKAN_HOST`
+
+## para segundo encontro
+
+- descrição campos variáveis
+
+- schema yaml
+
+- local schema e dialect (pasta separada)
+
+- git large files
