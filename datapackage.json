@@ -1,0 +1,49 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "indicadores-fhemig-2021-09",
+      "path": "data/indicadores-fhemig-2021-09.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "dialect":"dialect.json",
+      "description": "Indicadores gerais das unidades hospitalares constantes do Sistema de Gestão da FHEMIG em Números, referente ao mês de setembro de 2021",
+      "title": "Indicadores Hospitalares do SIG - setembro de 2021 ",
+      "format": "csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "indicadores-fhemig-2021-10",
+      "path": "data/indicadores-fhemig-2021-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "dialect":"dialect.json",
+      "description": "Indicadores gerais das unidades hospitalares constantes do Sistema de Gestão da FHEMIG em Números, referente ao mês de outubro de 2021",
+      "title": "Indicadores Hospitalares do SIG - outubro de 2021",
+      "format": "csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "keywords": [
+    "gestão hospitalar",
+    "indicadores hospitalares",
+    "fhemig em números"
+  ],
+  "name": "indicadores-fhemig-2021",
+  "title": "Indicadores Hospitalares do SIG ",
+  "description": "Indicadores gerais das unidades hospitalares constantes do Sistema de Gestão da FHEMIG em Números",
+  "version": "0.0.9",
+  "contributors": [
+    {
+      "title": "André Amorim",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
