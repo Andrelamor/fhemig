@@ -29,9 +29,10 @@
     "indicadores hospitalares",
     "fhemig em números"
   ],
-  "name": "indicadores-fhemig-2021",
+  "name": "indicadores-fhemig",
   "title": "Indicadores Hospitalares do SIG ",
   "description": "Indicadores gerais das unidades hospitalares constantes do Sistema de Gestão da FHEMIG em Números",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
   "version": "0.0.9",
   "contributors": [
     {
